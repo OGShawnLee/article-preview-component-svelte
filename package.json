@@ -12,11 +12,13 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.43",
     "@tsconfig/svelte": "^2.0.1",
+    "malachite-ui": "^0.6.2",
     "svelte": "^3.48.0",
     "svelte-check": "^2.7.0",
     "svelte-preprocess": "^4.10.6",
     "tslib": "^2.4.0",
     "typescript": "^4.6.4",
-    "vite": "^2.9.8"
+    "vite": "^2.9.8",
+    "vite-plugin-windicss": "^1.8.4"
   }
 }
