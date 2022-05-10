@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [To be added](https://your-solution-url.com)
+- Solution URL: [Right here!](https://www.frontendmentor.io/solutions/fully-responsive-animated-article-preview-component-rkVZ1V_I5)
 - Live Site URL: [Deployed on Vercel](https://article-preview-component-svelte.vercel.app/)
 
 ## My process
