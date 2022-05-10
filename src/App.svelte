@@ -20,7 +20,7 @@
 <main class="max-w-xs mx-auto my-8 | md:max-w-md lg:max-w-4xl">
   <article
     class="grid gap-y-8 bg-white shadow-lg rounded-lg overflow-hidden | lg:(grid-cols-2 gap-0 overflow-visible)">
-    <img src={drawers} alt="Drawers" />
+    <img class="lg:rounded-l-lg" src={drawers} alt="Drawers" />
     <div class="lg:(flex flex-col justify-center)">
       <div class="px-8 pb-2 space-y-4">
         <h1 class="font-manrope font-bold | md:text-lg lg:text-2xl">
