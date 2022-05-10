@@ -19,7 +19,7 @@
 
 <main class="max-w-xs mx-auto my-8 | md:max-w-md lg:max-w-4xl">
   <article
-    class="grid gap-y-8 bg-white rounded-lg overflow-hidden | lg:(grid-cols-2 gap-0 overflow-visible)">
+    class="grid gap-y-8 bg-white shadow-lg rounded-lg overflow-hidden | lg:(grid-cols-2 gap-0 overflow-visible)">
     <img src={drawers} alt="Drawers" />
     <div class="lg:(flex flex-col justify-center)">
       <div class="px-8 pb-2 space-y-4">
@@ -58,7 +58,7 @@
               {#if x > 1024}
                 <!-- DESKTOP -->
                 <section
-                  class="absolute px-10 h-14 | flex items-center gap-6 | bg-slate-600 rounded-xl rounded-br-none transform lg:(-top-24 right-0) xl:(left-1/2 -translate-x-1/2 right-auto rounded-br-2xl)"
+                  class="absolute px-10 h-14 | flex items-center gap-6 | bg-slate-600 shadow-lg rounded-xl rounded-br-none transform lg:(-top-24 right-0) xl:(left-1/2 -translate-x-1/2 right-auto rounded-br-2xl)"
                   use:panel
                   transition:fade>
                   <h3 class="uppercase text-slate-300 tracking-[0.2em]">Share</h3>
@@ -74,7 +74,7 @@
               {:else}
                 <!-- MOBILE -->
                 <section
-                  class="absolute inset-0 px-8 | flex items-center gap-6 | bg-slate-600"
+                  class="absolute inset-0 px-8 | flex items-center gap-6 | bg-slate-600 shadow-lg"
                   use:panel
                   transition:fly={{ x: 400 }}>
                   <h3 class="uppercase text-slate-300 tracking-[0.2em]">Share</h3>
